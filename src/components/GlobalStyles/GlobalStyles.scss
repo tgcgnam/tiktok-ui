@@ -5,6 +5,7 @@
    --pramary: #fe2d55;
    --default-layout-header-height: 60px;
    --default-layout-width: 1150px;
+   --color-text:#333;
 }
 
 * {
@@ -22,4 +23,11 @@ body {
    font-size: 1.6rem;
    line-height: 1.5;
    text-rendering: optimizeSpeed;
+}
+
+input,
+button,
+[tabindex] {
+   border: none;
+   outline: none;
 }
